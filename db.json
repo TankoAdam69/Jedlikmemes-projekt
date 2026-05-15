@@ -1,0 +1,131 @@
+{
+  "memes": [
+    {
+      "id": 1,
+      "title": "Amikor a tanár nem mondja, hogy lesz dolgozat",
+      "description": "A híres 'mindenki alszik' mém, amikor a tanár nem szól, de mégis lesz dolgozat.",
+      "imageUrl": "https://i.redd.it/placeholder1.jpg",
+      "category": 1,
+      "author": "user123",
+      "upvotes": 150,
+      "createdAt": "2024-10-15T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Amikor a matek tanár magyaráz, de nem érted",
+      "description": "A 'mindenki': 'Igen, értem' mém, miközben senki sem érti.",
+      "imageUrl": "https://i.redd.it/placeholder2.jpg",
+      "category": 1,
+      "author": "student456",
+      "upvotes": 200,
+      "createdAt": "2024-10-16T11:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Vizsga előtti éjszaka",
+      "description": "Az a mém, amikor egész éjszaka tanulsz, de a vizsgán semmit nem tudsz.",
+      "imageUrl": "https://i.redd.it/placeholder3.jpg",
+      "category": 2,
+      "author": "nightowl",
+      "upvotes": 300,
+      "createdAt": "2024-10-17T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Tanári nap",
+      "description": "Amikor a tanárok kapnak virágot, de mi nem kapunk szünetet.",
+      "imageUrl": "https://i.redd.it/placeholder4.jpg",
+      "category": 3,
+      "author": "funnyguy",
+      "upvotes": 180,
+      "createdAt": "2024-10-18T13:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Iskolai busz",
+      "description": "Az a reggel, amikor a busz pont akkor indul, amikor odaérsz.",
+      "imageUrl": "https://i.redd.it/placeholder5.jpg",
+      "category": 1,
+      "author": "earlybird",
+      "upvotes": 120,
+      "createdAt": "2024-10-19T14:00:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Tanári hozzáállás",
+      "description": "Amikor a tanár nem veszi észre, hogy alszol órán.",
+      "imageUrl": "https://i.redd.it/placeholder6.jpg",
+      "category": 3,
+      "author": "sleeper",
+      "upvotes": 250,
+      "createdAt": "2024-10-20T15:00:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Csoportmunka",
+      "description": "Amikor a csoportban mindenki másra vár, de senki nem csinál semmit.",
+      "imageUrl": "https://i.redd.it/placeholder7.jpg",
+      "category": 4,
+      "author": "teamplayer",
+      "upvotes": 220,
+      "createdAt": "2024-10-21T16:00:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Iskolai menza",
+      "description": "A menza kaja, ami mindig ugyanaz, de mindig más néven.",
+      "imageUrl": "https://i.redd.it/placeholder8.jpg",
+      "category": 1,
+      "author": "foodie",
+      "upvotes": 170,
+      "createdAt": "2024-10-22T17:00:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Szünet",
+      "description": "Az a 10 perc, amikor végre lazíthatsz.",
+      "imageUrl": "https://i.redd.it/placeholder9.jpg",
+      "category": 5,
+      "author": "breaklover",
+      "upvotes": 190,
+      "createdAt": "2024-10-23T18:00:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Tanári szigor",
+      "description": "Amikor a tanár túl szigorú, de mi csak nevetünk.",
+      "imageUrl": "https://i.redd.it/placeholder10.jpg",
+      "category": 3,
+      "author": "joker",
+      "upvotes": 260,
+      "createdAt": "2024-10-24T19:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Iskolai Élet",
+      "description": "Mémek az iskolai mindennapokról"
+    },
+    {
+      "id": 2,
+      "name": "Vizsgák & Dolgozatok",
+      "description": "Mémek a vizsgák és dolgozatok körül"
+    },
+    {
+      "id": 3,
+      "name": "Tanárok",
+      "description": "Mémek a tanárokról és tanári szerepekről"
+    },
+    {
+      "id": 4,
+      "name": "Csoportmunka",
+      "description": "Mémek a csoportmunka kihívásairól"
+    },
+    {
+      "id": 5,
+      "name": "Szünetek",
+      "description": "Mémek a szünetekről és pihenésről"
+    }
+  ]
+}
