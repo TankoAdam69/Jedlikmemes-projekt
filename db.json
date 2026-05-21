@@ -1,131 +1,116 @@
 {
+  "users": [
+    { "id": 1, "username": "jedlik_kiraly", "karma": 1337, "bio": "Az informatika az egyetlen igaz tudomány 💻", "joinedAt": "2024-09-01", "avatar": "🧑‍💻" },
+    { "id": 2, "username": "matek_zseni", "karma": 892, "bio": "Valójában én sem értem a limeszt", "joinedAt": "2024-09-03", "avatar": "🧮" },
+    { "id": 3, "username": "fizika_lord", "karma": 421, "bio": "F = m*a és kész, mi más kellene?", "joinedAt": "2024-09-05", "avatar": "⚗️" },
+    { "id": 4, "username": "irodalom_hater", "karma": 654, "bio": "Madách csak szenvedni akart velünk", "joinedAt": "2024-09-08", "avatar": "📚" },
+    { "id": 5, "username": "tori_nerd", "karma": 203, "bio": "1848 mindenkinek, de főleg nekem", "joinedAt": "2024-09-10", "avatar": "📜" },
+    { "id": 6, "username": "pentek_vibe", "karma": 777, "bio": "Hétfőn meghalok, pénteken feltámadok", "joinedAt": "2024-09-12", "avatar": "🎉" },
+    { "id": 7, "username": "dolgozo_survivor", "karma": 315, "bio": "Túléltem már 47 dolgozatot, ez is megy", "joinedAt": "2024-09-15", "avatar": "😅" },
+    { "id": 8, "username": "python_padawan", "karma": 580, "bio": "print('Hello World') – ez a csúcs", "joinedAt": "2024-09-20", "avatar": "🐍" },
+    { "id": 9, "username": "nap_alvos", "karma": 99, "bio": "Első óra 8-kor az emberiség elleni bűn", "joinedAt": "2024-10-01", "avatar": "😴" },
+    { "id": 10, "username": "hazi_bajnok", "karma": 1042, "bio": "ChatGPT a legjobb barátom (shhh)", "joinedAt": "2024-10-05", "avatar": "🏆" }
+  ],
   "memes": [
     {
       "id": 1,
-      "title": "Amikor a tanár nem mondja, hogy lesz dolgozat",
-      "description": "A híres 'mindenki alszik' mém, amikor a tanár nem szól, de mégis lesz dolgozat.",
-      "imageUrl": "https://i.redd.it/placeholder1.jpg",
-      "category": 1,
-      "author": "user123",
-      "upvotes": 150,
-      "createdAt": "2024-10-15T10:00:00Z"
+      "title": "Amikor a tanár azt mondja 'ez egyszerű' és a fél osztály sírva néz a táblára",
+      "imageUrl": "https://picsum.photos/seed/jedlik1/600/400",
+      "upvotes": 420,
+      "downvotes": 3,
+      "category": "matek",
+      "authorId": 2,
+      "createdAt": "2025-01-10T08:30:00Z"
     },
     {
       "id": 2,
-      "title": "Amikor a matek tanár magyaráz, de nem érted",
-      "description": "A 'mindenki': 'Igen, értem' mém, miközben senki sem érti.",
-      "imageUrl": "https://i.redd.it/placeholder2.jpg",
-      "category": 1,
-      "author": "student456",
-      "upvotes": 200,
-      "createdAt": "2024-10-16T11:00:00Z"
+      "title": "POV: Elfelejtettük a tornafelszerelést és most pucér zokniban kell tornászni",
+      "imageUrl": "https://picsum.photos/seed/jedlik2/600/400",
+      "upvotes": 315,
+      "downvotes": 12,
+      "category": "egyéb",
+      "authorId": 6,
+      "createdAt": "2025-01-12T11:15:00Z"
     },
     {
       "id": 3,
-      "title": "Vizsga előtti éjszaka",
-      "description": "Az a mém, amikor egész éjszaka tanulsz, de a vizsgán semmit nem tudsz.",
-      "imageUrl": "https://i.redd.it/placeholder3.jpg",
-      "category": 2,
-      "author": "nightowl",
-      "upvotes": 300,
-      "createdAt": "2024-10-17T12:00:00Z"
+      "title": "Informatika óra – a tanár megkérdezi ki nem csinálja meg a háziját és mindenki a monitort bámulja",
+      "imageUrl": "https://picsum.photos/seed/jedlik3/600/400",
+      "upvotes": 587,
+      "downvotes": 5,
+      "category": "informatika",
+      "authorId": 8,
+      "createdAt": "2025-01-14T09:00:00Z"
     },
     {
       "id": 4,
-      "title": "Tanári nap",
-      "description": "Amikor a tanárok kapnak virágot, de mi nem kapunk szünetet.",
-      "imageUrl": "https://i.redd.it/placeholder4.jpg",
-      "category": 3,
-      "author": "funnyguy",
-      "upvotes": 180,
-      "createdAt": "2024-10-18T13:00:00Z"
+      "title": "5 perccel fizika dolgozat előtt: 'gyorsan olvasd el az egész fejezetet'",
+      "imageUrl": "https://picsum.photos/seed/jedlik4/600/400",
+      "upvotes": 402,
+      "downvotes": 8,
+      "category": "fizika",
+      "authorId": 3,
+      "createdAt": "2025-01-16T07:45:00Z"
     },
     {
       "id": 5,
-      "title": "Iskolai busz",
-      "description": "Az a reggel, amikor a busz pont akkor indul, amikor odaérsz.",
-      "imageUrl": "https://i.redd.it/placeholder5.jpg",
-      "category": 1,
-      "author": "earlybird",
-      "upvotes": 120,
-      "createdAt": "2024-10-19T14:00:00Z"
+      "title": "Irodalom dolgozat: 'elemezd a művet' – én aki soha nem olvastam el",
+      "imageUrl": "https://picsum.photos/seed/jedlik5/600/400",
+      "upvotes": 674,
+      "downvotes": 7,
+      "category": "irodalom",
+      "authorId": 4,
+      "createdAt": "2025-01-18T13:20:00Z"
     },
     {
       "id": 6,
-      "title": "Tanári hozzáállás",
-      "description": "Amikor a tanár nem veszi észre, hogy alszol órán.",
-      "imageUrl": "https://i.redd.it/placeholder6.jpg",
-      "category": 3,
-      "author": "sleeper",
-      "upvotes": 250,
-      "createdAt": "2024-10-20T15:00:00Z"
+      "title": "Hétfő reggel 8 óra, első óra matek – a napirend szerint ez egyenértékű a kínzással",
+      "imageUrl": "https://picsum.photos/seed/jedlik6/600/400",
+      "upvotes": 891,
+      "downvotes": 4,
+      "category": "matek",
+      "authorId": 9,
+      "createdAt": "2025-01-20T07:55:00Z"
     },
     {
       "id": 7,
-      "title": "Csoportmunka",
-      "description": "Amikor a csoportban mindenki másra vár, de senki nem csinál semmit.",
-      "imageUrl": "https://i.redd.it/placeholder7.jpg",
-      "category": 4,
-      "author": "teamplayer",
-      "upvotes": 220,
-      "createdAt": "2024-10-21T16:00:00Z"
+      "title": "Történelem teszt: 'mi volt az 1867-es kiegyezés pontos dátuma?' Én: ez nem kell tudni",
+      "imageUrl": "https://picsum.photos/seed/jedlik7/600/400",
+      "upvotes": 256,
+      "downvotes": 21,
+      "category": "történelem",
+      "authorId": 5,
+      "createdAt": "2025-01-22T10:10:00Z"
     },
     {
       "id": 8,
-      "title": "Iskolai menza",
-      "description": "A menza kaja, ami mindig ugyanaz, de mindig más néven.",
-      "imageUrl": "https://i.redd.it/placeholder8.jpg",
-      "category": 1,
-      "author": "foodie",
-      "upvotes": 170,
-      "createdAt": "2024-10-22T17:00:00Z"
+      "title": "Amikor végre péntekre ér a hét és mindenki előre szaladna az ajtón",
+      "imageUrl": "https://picsum.photos/seed/jedlik8/600/400",
+      "upvotes": 1024,
+      "downvotes": 1,
+      "category": "egyéb",
+      "authorId": 6,
+      "createdAt": "2025-01-24T14:00:00Z"
     },
     {
       "id": 9,
-      "title": "Szünet",
-      "description": "Az a 10 perc, amikor végre lazíthatsz.",
-      "imageUrl": "https://i.redd.it/placeholder9.jpg",
-      "category": 5,
-      "author": "breaklover",
-      "upvotes": 190,
-      "createdAt": "2024-10-23T18:00:00Z"
+      "title": "Az a pillanat amikor a tanár bejelenti hogy jövő héten nincs dolgozat – nemes csendesség",
+      "imageUrl": "https://picsum.photos/seed/jedlik9/600/400",
+      "upvotes": 743,
+      "downvotes": 2,
+      "category": "egyéb",
+      "authorId": 7,
+      "createdAt": "2025-01-26T12:30:00Z"
     },
     {
       "id": 10,
-      "title": "Tanári szigor",
-      "description": "Amikor a tanár túl szigorú, de mi csak nevetünk.",
-      "imageUrl": "https://i.redd.it/placeholder10.jpg",
-      "category": 3,
-      "author": "joker",
-      "upvotes": 260,
-      "createdAt": "2024-10-24T19:00:00Z"
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "name": "Iskolai Élet",
-      "description": "Mémek az iskolai mindennapokról"
-    },
-    {
-      "id": 2,
-      "name": "Vizsgák & Dolgozatok",
-      "description": "Mémek a vizsgák és dolgozatok körül"
-    },
-    {
-      "id": 3,
-      "name": "Tanárok",
-      "description": "Mémek a tanárokról és tanári szerepekről"
-    },
-    {
-      "id": 4,
-      "name": "Csoportmunka",
-      "description": "Mémek a csoportmunka kihívásairól"
-    },
-    {
-      "id": 5,
-      "name": "Szünetek",
-      "description": "Mémek a szünetekről és pihenésről"
+      "title": "Python for ciklus: 'range(10)' – én aki 0-tól 9-ig számol és nem érti miért 9 az utolsó",
+      "imageUrl": "https://picsum.photos/seed/jedlik10/600/400",
+      "upvotes": 388,
+      "downvotes": 15,
+      "category": "informatika",
+      "authorId": 8,
+      "createdAt": "2025-01-28T09:45:00Z"
     }
   ]
 }
