@@ -1,9 +1,9 @@
 export interface MemeModel {
-    id : string;
+    id : number;
     title : string;
-    imgUrl : string
+    imageUrl : string
     upvotes : number
-    dwonvotes : number
+    downvotes : number
     category : number
     authorId : number
     createdAt : string

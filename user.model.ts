@@ -1,5 +1,5 @@
 export interface UserModel {
-    id : string;
+    id : number;
     username : string;
     karma : number;
     bio : string;
