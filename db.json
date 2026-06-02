@@ -11,106 +11,126 @@
     { "id": 9, "username": "nap_alvos", "karma": 99, "bio": "Első óra 8-kor az emberiség elleni bűn", "joinedAt": "2024-10-01", "avatar": "😴" },
     { "id": 10, "username": "hazi_bajnok", "karma": 1042, "bio": "ChatGPT a legjobb barátom (shhh)", "joinedAt": "2024-10-05", "avatar": "🏆" }
   ],
-  "memes": [
-    {
-      "id": 1,
-      "title": "Amikor a tanár azt mondja 'ez egyszerű' és a fél osztály sírva néz a táblára",
-      "imageUrl": "https://picsum.photos/seed/jedlik1/600/400",
-      "upvotes": 420,
-      "downvotes": 3,
-      "category": "matek",
-      "authorId": 2,
-      "createdAt": "2025-01-10T08:30:00Z"
-    },
-    {
-      "id": 2,
-      "title": "POV: Elfelejtettük a tornafelszerelést és most pucér zokniban kell tornászni",
-      "imageUrl": "https://picsum.photos/seed/jedlik2/600/400",
-      "upvotes": 315,
-      "downvotes": 12,
-      "category": "egyéb",
-      "authorId": 6,
-      "createdAt": "2025-01-12T11:15:00Z"
-    },
-    {
-      "id": 3,
-      "title": "Informatika óra – a tanár megkérdezi ki nem csinálja meg a háziját és mindenki a monitort bámulja",
-      "imageUrl": "https://picsum.photos/seed/jedlik3/600/400",
-      "upvotes": 587,
-      "downvotes": 5,
-      "category": "informatika",
-      "authorId": 8,
-      "createdAt": "2025-01-14T09:00:00Z"
-    },
-    {
-      "id": 4,
-      "title": "5 perccel fizika dolgozat előtt: 'gyorsan olvasd el az egész fejezetet'",
-      "imageUrl": "https://picsum.photos/seed/jedlik4/600/400",
-      "upvotes": 402,
-      "downvotes": 8,
-      "category": "fizika",
-      "authorId": 3,
-      "createdAt": "2025-01-16T07:45:00Z"
-    },
-    {
-      "id": 5,
-      "title": "Irodalom dolgozat: 'elemezd a művet' – én aki soha nem olvastam el",
-      "imageUrl": "https://picsum.photos/seed/jedlik5/600/400",
-      "upvotes": 674,
-      "downvotes": 7,
-      "category": "irodalom",
-      "authorId": 4,
-      "createdAt": "2025-01-18T13:20:00Z"
-    },
-    {
-      "id": 6,
-      "title": "Hétfő reggel 8 óra, első óra matek – a napirend szerint ez egyenértékű a kínzással",
-      "imageUrl": "https://picsum.photos/seed/jedlik6/600/400",
-      "upvotes": 891,
-      "downvotes": 4,
-      "category": "matek",
-      "authorId": 9,
-      "createdAt": "2025-01-20T07:55:00Z"
-    },
-    {
-      "id": 7,
-      "title": "Történelem teszt: 'mi volt az 1867-es kiegyezés pontos dátuma?' Én: ez nem kell tudni",
-      "imageUrl": "https://picsum.photos/seed/jedlik7/600/400",
-      "upvotes": 256,
-      "downvotes": 21,
-      "category": "történelem",
-      "authorId": 5,
-      "createdAt": "2025-01-22T10:10:00Z"
-    },
-    {
-      "id": 8,
-      "title": "Amikor végre péntekre ér a hét és mindenki előre szaladna az ajtón",
-      "imageUrl": "https://picsum.photos/seed/jedlik8/600/400",
-      "upvotes": 1024,
-      "downvotes": 1,
-      "category": "egyéb",
-      "authorId": 6,
-      "createdAt": "2025-01-24T14:00:00Z"
-    },
-    {
-      "id": 9,
-      "title": "Az a pillanat amikor a tanár bejelenti hogy jövő héten nincs dolgozat – nemes csendesség",
-      "imageUrl": "https://picsum.photos/seed/jedlik9/600/400",
-      "upvotes": 743,
-      "downvotes": 2,
-      "category": "egyéb",
-      "authorId": 7,
-      "createdAt": "2025-01-26T12:30:00Z"
-    },
-    {
-      "id": 10,
-      "title": "Python for ciklus: 'range(10)' – én aki 0-tól 9-ig számol és nem érti miért 9 az utolsó",
-      "imageUrl": "https://picsum.photos/seed/jedlik10/600/400",
-      "upvotes": 388,
-      "downvotes": 15,
-      "category": "informatika",
-      "authorId": 8,
-      "createdAt": "2025-01-28T09:45:00Z"
-    }
-  ]
+"memes": [
+  {
+    "id": 1,
+    "title": "Amikor a tanár azt mondja 'ez egyszerű' és a fél osztály sírva néz a táblára",
+    "imageUrl": "https://picsum.photos/seed/jedlik1/600/400",
+    "upvotes": 420,
+    "downvotes": 3,
+    "category": "matek",
+    "authorId": 2,
+    "createdAt": "2025-01-10T08:30:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 2,
+    "title": "POV: Elfelejtettük a tornafelszerelést és most pucér zokniban kell tornászni",
+    "imageUrl": "https://picsum.photos/seed/jedlik2/600/400",
+    "upvotes": 315,
+    "downvotes": 12,
+    "category": "egyéb",
+    "authorId": 6,
+    "createdAt": "2025-01-12T11:15:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 3,
+    "title": "Informatika óra – a tanár megkérdezi ki nem csinálja meg a háziját és mindenki a monitort bámulja",
+    "imageUrl": "https://picsum.photos/seed/jedlik3/600/400",
+    "upvotes": 587,
+    "downvotes": 5,
+    "category": "informatika",
+    "authorId": 8,
+    "createdAt": "2025-01-14T09:00:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 4,
+    "title": "5 perccel fizika dolgozat előtt: 'gyorsan olvasd el az egész fejezetet'",
+    "imageUrl": "https://picsum.photos/seed/jedlik4/600/400",
+    "upvotes": 402,
+    "downvotes": 8,
+    "category": "fizika",
+    "authorId": 3,
+    "createdAt": "2025-01-16T07:45:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 5,
+    "title": "Irodalom dolgozat: 'elemezd a művet' – én aki soha nem olvastam el",
+    "imageUrl": "https://picsum.photos/seed/jedlik5/600/400",
+    "upvotes": 674,
+    "downvotes": 7,
+    "category": "irodalom",
+    "authorId": 4,
+    "createdAt": "2025-01-18T13:20:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 6,
+    "title": "Hétfő reggel 8 óra, első óra matek – a napirend szerint ez egyenértékű a kínzással",
+    "imageUrl": "https://picsum.photos/seed/jedlik6/600/400",
+    "upvotes": 891,
+    "downvotes": 4,
+    "category": "matek",
+    "authorId": 9,
+    "createdAt": "2025-01-20T07:55:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 7,
+    "title": "Történelem teszt: 'mi volt az 1867-es kiegyezés pontos dátuma?' Én: ez nem kell tudni",
+    "imageUrl": "https://picsum.photos/seed/jedlik7/600/400",
+    "upvotes": 256,
+    "downvotes": 21,
+    "category": "történelem",
+    "authorId": 5,
+    "createdAt": "2025-01-22T10:10:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 8,
+    "title": "Amikor végre péntekre ér a hét és mindenki előre szaladna az ajtón",
+    "imageUrl": "https://picsum.photos/seed/jedlik8/600/400",
+    "upvotes": 1024,
+    "downvotes": 1,
+    "category": "egyéb",
+    "authorId": 6,
+    "createdAt": "2025-01-24T14:00:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 9,
+    "title": "Az a pillanat amikor a tanár bejelenti hogy jövő héten nincs dolgozat – nemes csendesség",
+    "imageUrl": "https://picsum.photos/seed/jedlik9/600/400",
+    "upvotes": 743,
+    "downvotes": 2,
+    "category": "egyéb",
+    "authorId": 7,
+    "createdAt": "2025-01-26T12:30:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 10,
+    "title": "Python for ciklus: 'range(10)' – én aki 0-tól 9-ig számol és nem érti miért 9 az utolsó",
+    "imageUrl": "https://picsum.photos/seed/jedlik10/600/400",
+    "upvotes": 388,
+    "downvotes": 15,
+    "category": "informatika",
+    "authorId": 8,
+    "createdAt": "2025-01-28T09:45:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  }
+]
 }
