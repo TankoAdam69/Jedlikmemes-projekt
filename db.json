@@ -1,15 +1,85 @@
 {
   "users": [
-    { "id": 1, "username": "jedlik_kiraly", "karma": 1337, "bio": "Az informatika az egyetlen igaz tudomány 💻", "joinedAt": "2024-09-01", "avatar": "🧑‍💻" },
-    { "id": 2, "username": "matek_zseni", "karma": 892, "bio": "Valójában én sem értem a limeszt", "joinedAt": "2024-09-03", "avatar": "🧮" },
-    { "id": 3, "username": "fizika_lord", "karma": 421, "bio": "F = m*a és kész, mi más kellene?", "joinedAt": "2024-09-05", "avatar": "⚗️" },
-    { "id": 4, "username": "irodalom_hater", "karma": 654, "bio": "Madách csak szenvedni akart velünk", "joinedAt": "2024-09-08", "avatar": "📚" },
-    { "id": 5, "username": "tori_nerd", "karma": 203, "bio": "1848 mindenkinek, de főleg nekem", "joinedAt": "2024-09-10", "avatar": "📜" },
-    { "id": 6, "username": "pentek_vibe", "karma": 777, "bio": "Hétfőn meghalok, pénteken feltámadok", "joinedAt": "2024-09-12", "avatar": "🎉" },
-    { "id": 7, "username": "dolgozo_survivor", "karma": 315, "bio": "Túléltem már 47 dolgozatot, ez is megy", "joinedAt": "2024-09-15", "avatar": "😅" },
-    { "id": 8, "username": "python_padawan", "karma": 580, "bio": "print('Hello World') – ez a csúcs", "joinedAt": "2024-09-20", "avatar": "🐍" },
-    { "id": 9, "username": "nap_alvos", "karma": 99, "bio": "Első óra 8-kor az emberiség elleni bűn", "joinedAt": "2024-10-01", "avatar": "😴" },
-    { "id": 10, "username": "hazi_bajnok", "karma": 1042, "bio": "ChatGPT a legjobb barátom (shhh)", "joinedAt": "2024-10-05", "avatar": "🏆" }
+    {
+      "id": "1",
+      "username": "jedlik_kiraly",
+      "karma": 1337,
+      "bio": "Az informatika az egyetlen igaz tudomány 💻",
+      "joinedAt": "2024-09-01",
+      "avatar": "🧑‍💻"
+    },
+    {
+      "id": "2",
+      "username": "matek_zseni",
+      "karma": 892,
+      "bio": "Valójában én sem értem a limeszt",
+      "joinedAt": "2024-09-03",
+      "avatar": "🧮"
+    },
+    {
+      "id": "3",
+      "username": "fizika_lord",
+      "karma": 421,
+      "bio": "F = m*a és kész, mi más kellene?",
+      "joinedAt": "2024-09-05",
+      "avatar": "⚗️"
+    },
+    {
+      "id": "4",
+      "username": "irodalom_hater",
+      "karma": 654,
+      "bio": "Madách csak szenvedni akart velünk",
+      "joinedAt": "2024-09-08",
+      "avatar": "📚"
+    },
+    {
+      "id": "5",
+      "username": "tori_nerd",
+      "karma": 203,
+      "bio": "1848 mindenkinek, de főleg nekem",
+      "joinedAt": "2024-09-10",
+      "avatar": "📜"
+    },
+    {
+      "id": "6",
+      "username": "pentek_vibe",
+      "karma": 777,
+      "bio": "Hétfőn meghalok, pénteken feltámadok",
+      "joinedAt": "2024-09-12",
+      "avatar": "🎉"
+    },
+    {
+      "id": "7",
+      "username": "dolgozo_survivor",
+      "karma": 315,
+      "bio": "Túléltem már 47 dolgozatot, ez is megy",
+      "joinedAt": "2024-09-15",
+      "avatar": "😅"
+    },
+    {
+      "id": "8",
+      "username": "python_padawan",
+      "karma": 580,
+      "bio": "print('Hello World') – ez a csúcs",
+      "joinedAt": "2024-09-20",
+      "avatar": "🐍"
+    },
+    {
+      "id": "9",
+      "username": "nap_alvos",
+      "karma": 99,
+      "bio": "Első óra 8-kor az emberiség elleni bűn",
+      "joinedAt": "2024-10-01",
+      "avatar": "😴"
+    },
+    {
+      "id": "10",
+      "username": "hazi_bajnok",
+      "karma": 1042,
+      "bio": "ChatGPT a legjobb barátom (shhh)",
+      "joinedAt": "2024-10-05",
+      "avatar": "🏆"
+    }
   ],
 "memes": [
   {

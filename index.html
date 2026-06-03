@@ -20,47 +20,31 @@
     </div>
 
     <div class="flex-1 max-w-xl mx-2 sm:mx-4">
-      <div class="relative">
-        <input 
-          type="text" 
-          placeholder="Keresés..." 
-          class="w-full bg-[#272729] border border-[#343536] rounded-full py-1.5 px-4 sm:px-10 text-sm focus:outline-none focus:border-yellow-500 transition-all"
-        />
-      </div>
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Keresés cím vagy kategória alapján..."
+        class="w-full bg-[#272729] border border-[#343536] rounded-full py-1.5 px-4 sm:px-5 text-sm focus:outline-none focus:border-yellow-500 transition-all"
+      />
     </div>
 
     <div class="flex items-center gap-2">
-      <button class="px-3 py-1.5 text-yellow-400 text-xs sm:text-sm font-semibold hover:bg-yellow-400/10 rounded-full transition">Belépés</button>
-      <button class="px-3 py-1.5 bg-yellow-400 text-black rounded-full text-xs sm:text-sm font-semibold hover:bg-yellow-300 transition">Regisztráció</button>
+      <button
+        id="new-meme-btn"
+        class="px-3 py-1.5 bg-yellow-400 text-black rounded-full text-xs sm:text-sm font-semibold hover:bg-yellow-300 transition"
+      >
+        + Mém
+      </button>
     </div>
   </nav>
-  <main class="max-w-[1200px] mx-auto p-4 flex flex-col lg:flex-col gap-6" id="memes-main">
 
-    <section class="flex-1 order-1">
-      
-      <article class="bg-[#1A1A1B] border border-[#343536] rounded-md flex flex-col sm:flex-row overflow-hidden hover:border-gray-500 transition">
-        
-        <div class="w-full sm:w-12 bg-[#151516] p-2 flex sm:flex-col items-center justify-around sm:justify-start gap-1 border-b sm:border-b-0 sm:border-r border-[#343536]">
-          <button class="hover:bg-white/10 p-1 rounded text-xl text-gray-400 hover:text-yellow-400">▲</button>
-          <span class="text-xs font-bold mono">420</span>
-          <button class="hover:bg-white/10 p-1 rounded text-xl text-gray-400 hover:text-blue-400">▼</button>
-        </div>
+  <main
+    id="memes-main"
+    class="max-w-[1200px] mx-auto p-4 flex flex-col lg:flex-row gap-6"
+  >
 
-        <div class="flex-1 p-3">
-          <div class="flex items-center gap-2 text-[10px] sm:text-xs text-gray-500 mb-2">
-            <span class="font-bold text-gray-300">u/jedlik_user</span>
-          </div>
-          <h2 class="text-base sm:text-lg font-semibold text-white mb-3">Amikor a kódban minden reszponzív lett végre</h2>
-          
-          <div class="bg-black rounded border border-[#343536] flex items-center justify-center aspect-video w-full">
-            <span class="text-yellow-400/20 text-2xl font-bold mono">MEME</span>
-          </div>
-        </div>
-      </article>
+    <aside class="w-full lg:w-[312px] flex flex-col gap-4 order-2 lg:order-2">
 
-    </section>
-    <aside class="w-full lg:w-[312px] flex flex-col gap-4 order-2">
-      
       <div class="bg-[#1A1A1B] border border-[#343536] rounded-md overflow-hidden">
         <div class="h-10 bg-yellow-500"></div>
         <div class="p-4">
@@ -71,32 +55,36 @@
           <p class="text-sm text-gray-300 mb-4">
             A Jedlik Ányos Technikum informatikai mémjeinek gyűjtőhelye.
           </p>
-          <button class="w-full bg-yellow-400 text-black py-2 rounded-full font-bold hover:bg-yellow-300 transition">
-            Csatlakozás
+          <button
+            id="new-meme-btn-sidebar"
+            class="w-full bg-yellow-400 text-black py-2 rounded-full font-bold hover:bg-yellow-300 transition"
+            onclick="document.getElementById('new-meme-btn').click()"
+          >
+            + Mém feltöltése
           </button>
         </div>
       </div>
 
       <div class="bg-[#1A1A1B] border border-[#343536] rounded-md p-4">
-        <h3 class="text-xs font-bold text-gray-500 uppercase mb-3">Jogi dolgok</h3>
-        <ul class="text-sm space-y-2 text-gray-400">
-          <li class="hover:text-yellow-400 cursor-pointer flex justify-between">
-            <span>Szabályzat</span>
-            <span>→</span>
-          </li>
-          <li class="hover:text-yellow-400 cursor-pointer flex justify-between">
-            <span>Adatvédelem</span>
-            <span>→</span>
-          </li>
+        <h3 class="text-xs font-bold text-gray-500 uppercase mb-3">Kategóriák</h3>
+        <ul class="text-sm space-y-1 text-gray-400">
+          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">🧮 matek</li>
+          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">⚗️ fizika</li>
+          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">💻 informatika</li>
+          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">📚 irodalom</li>
+          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">📜 történelem</li>
+          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">🎉 egyéb</li>
         </ul>
       </div>
 
       <div class="text-[10px] text-gray-600 px-2 py-4 text-center lg:text-left">
-        © 2024 Jedlikmemes. Minden jog fenntartva.
+        © 2026 Jedlikmemes. Minden jog fenntartva.
       </div>
     </aside>
-
   </main>
-  <script type="module" src="/main.ts"></script>
+
+  <div id="toast-container" class="fixed bottom-4 right-4 z-[100] flex flex-col gap-2"></div>
+
+  <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
