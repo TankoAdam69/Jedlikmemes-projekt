@@ -164,8 +164,12 @@ async function handleDelete(id: number): Promise<void> {
   const meme = allMemes.find((m) => m.id === id);
   const title = meme?.title ?? "ezt a mémét";
   const confirmed = confirm(`Biztosan törölni akarod:\n"${title}"?`);
+  if (!currentUser) {
+    showToast("Törléshez be kell jelentkezned!", "error");
+    return;
+  }
   if (!confirmed) return;
-
+  
   try {
     await deleteMeme(id);
     allMemes = allMemes.filter((m) => m.id !== id);
