@@ -18,7 +18,8 @@ export function openMemeModal(
   document.getElementById("meme-modal")?.remove();
 
   const isEdit = !!existing;
-  const title = isEdit ? "Meme szerkesztése" : "Új meme feltöltése";
+  const title = isEdit ? "Meme szerkesztése" : "Új mém feltöltése";
+  let isSubmitting = false;
 
   const userOptions = users
     .map(
@@ -46,7 +47,6 @@ export function openMemeModal(
 
       <form id="meme-form" class="p-5 space-y-4" novalidate>
 
-        <!-- Cím -->
         <div>
           <label class="block text-xs font-bold text-gray-400 uppercase tracking-wider mb-1.5">
             Cím <span class="text-red-400">*</span>
@@ -54,14 +54,14 @@ export function openMemeModal(
           <input
             type="text"
             name="title"
-            placeholder="Mi a meme lényege?"
+            required
+            placeholder="Mi a mém lényege?"
             value="${existing?.title ?? ""}"
             class="form-input w-full bg-[#272729] border border-[#343536] text-white rounded-lg py-2 px-3 text-sm focus:outline-none focus:border-yellow-500 transition-all"
           />
           <p class="field-error text-red-400 text-xs mt-1 hidden"></p>
         </div>
 
-        <!-- Kép URL -->
         <div>
           <label class="block text-xs font-bold text-gray-400 uppercase tracking-wider mb-1.5">
             Kép URL <span class="text-red-400">*</span>
@@ -69,6 +69,7 @@ export function openMemeModal(
           <input
             type="url"
             name="imageUrl"
+            required
             placeholder="https://..."
             value="${existing?.imageUrl ?? ""}"
             class="form-input w-full bg-[#272729] border border-[#343536] text-white rounded-lg py-2 px-3 text-sm focus:outline-none focus:border-yellow-500 transition-all"
@@ -76,7 +77,6 @@ export function openMemeModal(
           <p class="field-error text-red-400 text-xs mt-1 hidden"></p>
         </div>
 
-        <!-- Kategória + Szerző -->
         <div class="grid grid-cols-2 gap-3">
           <div>
             <label class="block text-xs font-bold text-gray-400 uppercase tracking-wider mb-1.5">Kategória</label>
@@ -86,13 +86,24 @@ export function openMemeModal(
           </div>
           <div>
             <label class="block text-xs font-bold text-gray-400 uppercase tracking-wider mb-1.5">Feltöltő</label>
-            <select name="authorId" class="w-full bg-[#272729] border border-[#343536] text-white rounded-lg py-2 px-3 text-sm focus:outline-none focus:border-yellow-500 transition-all">
-              ${userOptions}
-            </select>
+            ${
+              isEdit
+                ? `
+              <select name="authorId" disabled class="w-full bg-[#1A1A1B] border border-[#343536] text-gray-500 rounded-lg py-2 px-3 text-sm cursor-not-allowed">
+                ${userOptions}
+              </select>
+              <input type="hidden" name="authorId" value="${existing.authorId}" />
+                `
+                : `
+              <div class="w-full bg-[#272729] border border-[#343536] text-gray-400 rounded-lg py-2 px-3 text-sm flex items-center gap-2">
+                 <span>${users[0]?.avatar || '👤'} u/${users[0]?.username || 'ismeretlen'}</span>
+              </div>
+              <input type="hidden" name="authorId" value="${users[0]?.id}" />
+                `
+            }
           </div>
         </div>
 
-        <!-- Upvotes / Downvotes (csak szerkesztésnél) -->
         ${
           isEdit
             ? `
@@ -113,7 +124,6 @@ export function openMemeModal(
             : ""
         }
 
-        <!-- Gombok -->
         <div class="flex justify-end gap-2 pt-2">
           <button type="button" id="modal-cancel"
             class="px-4 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-full transition">
@@ -129,7 +139,11 @@ export function openMemeModal(
 
   document.body.appendChild(modal);
 
-  const closeModal = (): void => modal.remove();
+  const closeModal = (): void => {
+    if (isSubmitting) return;
+    modal.remove();
+  };
+
   modal.querySelector("#modal-close")!.addEventListener("click", closeModal);
   modal.querySelector("#modal-cancel")!.addEventListener("click", closeModal);
   modal.addEventListener("click", (e) => {
@@ -142,20 +156,22 @@ export function openMemeModal(
     if (!validateMemeForm(form)) return;
 
     const submitBtn = form.querySelector<HTMLButtonElement>('button[type="submit"]')!;
+    isSubmitting = true;
     submitBtn.disabled = true;
     submitBtn.textContent = "Mentés...";
 
     try {
       const data = buildFormData(form, existing);
       await onSubmit(data);
+      isSubmitting = false;
       closeModal();
     } catch {
+      isSubmitting = false;
       submitBtn.disabled = false;
       submitBtn.textContent = isEdit ? "Mentés" : "Feltöltés";
     }
   });
 }
-
 
 function validateMemeForm(form: HTMLFormElement): boolean {
   let valid = true;
@@ -212,7 +228,6 @@ function isValidUrl(value: string): boolean {
     return false;
   }
 }
-
 
 function buildFormData(form: HTMLFormElement, existing?: MemeModel): CreateMemeDto {
   const fd = new FormData(form);

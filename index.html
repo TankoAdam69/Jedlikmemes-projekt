@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jedlikmemes</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght=400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
   <style>
     body { background-color: #030303; font-family: 'Inter', sans-serif; }
     .mono { font-family: 'JetBrains Mono', monospace; }
@@ -14,9 +14,9 @@
 <body class="text-gray-200">
 
   <nav class="sticky top-0 z-50 bg-[#1A1A1B] border-b border-[#343536] px-4 py-2 flex items-center justify-between">
-    <div class="flex items-center gap-2 flex-shrink-0 cursor-pointer">
+    <div class="flex items-center gap-2 flex-shrink-0 cursor-pointer" onclick="location.reload()">
       <div class="bg-yellow-400 text-black p-1 rounded-full w-8 h-8 flex items-center justify-center font-bold">J</div>
-      <span class="text-white font-bold text-lg tracking-tight hidden xs:block mono">jedlikmemes</span>
+      <span class="text-white font-bold text-lg tracking-tight hidden sm:block mono">jedlikmemes</span>
     </div>
 
     <div class="flex-1 max-w-xl mx-2 sm:mx-4">
@@ -28,23 +28,16 @@
       />
     </div>
 
-    <div class="flex items-center gap-2">
-      <button
-        id="new-meme-btn"
-        class="px-3 py-1.5 bg-yellow-400 text-black rounded-full text-xs sm:text-sm font-semibold hover:bg-yellow-300 transition"
-      >
-        + Mém
-      </button>
-    </div>
+    <div id="nav-auth-container" class="flex items-center gap-2"></div>
   </nav>
 
   <main
     id="memes-main"
     class="max-w-[1200px] mx-auto p-4 flex flex-col lg:flex-row gap-6"
   >
+    <div id="meme-list" class="flex-1 order-1 flex flex-col gap-4"></div>
 
     <aside class="w-full lg:w-[312px] flex flex-col gap-4 order-2 lg:order-2">
-
       <div class="bg-[#1A1A1B] border border-[#343536] rounded-md overflow-hidden">
         <div class="h-10 bg-yellow-500"></div>
         <div class="p-4">
@@ -57,8 +50,7 @@
           </p>
           <button
             id="new-meme-btn-sidebar"
-            class="w-full bg-yellow-400 text-black py-2 rounded-full font-bold hover:bg-yellow-300 transition"
-            onclick="document.getElementById('new-meme-btn').click()"
+            class="w-full bg-yellow-400 disabled:opacity-40 disabled:cursor-not-allowed text-black py-2 rounded-full font-bold hover:bg-yellow-300 transition"
           >
             + Mém feltöltése
           </button>
@@ -67,13 +59,13 @@
 
       <div class="bg-[#1A1A1B] border border-[#343536] rounded-md p-4">
         <h3 class="text-xs font-bold text-gray-500 uppercase mb-3">Kategóriák</h3>
-        <ul class="text-sm space-y-1 text-gray-400">
-          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">🧮 matek</li>
-          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">⚗️ fizika</li>
-          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">💻 informatika</li>
-          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">📚 irodalom</li>
-          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">📜 történelem</li>
-          <li class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">🎉 egyéb</li>
+        <ul id="category-list" class="text-sm space-y-1 text-gray-400">
+          <li data-cat="matek" class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">🧮 matek</li>
+          <li data-cat="fizika" class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">⚗️ fizika</li>
+          <li data-cat="informatika" class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">💻 informatika</li>
+          <li data-cat="irodalom" class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">📚 irodalom</li>
+          <li data-cat="történelem" class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">📜 történelem</li>
+          <li data-cat="egyéb" class="hover:text-yellow-400 cursor-pointer transition px-2 py-1 rounded hover:bg-white/5">🎉 egyéb</li>
         </ul>
       </div>
 
@@ -82,8 +74,6 @@
       </div>
     </aside>
   </main>
-
-  <div id="toast-container" class="fixed bottom-4 right-4 z-[100] flex flex-col gap-2"></div>
 
   <script type="module" src="/src/main.ts"></script>
 </body>

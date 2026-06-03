@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "node -e \"const fs = require('fs'); if (!fs.existsSync('fisz.txt')) { console.error('\\x1b[31mHiba: A program nem indul el, mert a fisz.txt hianyzik!\\x1b[0m'); process.exit(1); }\"",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
