@@ -11,106 +11,126 @@
     { "id": 9, "username": "nap_alvos", "karma": 99, "bio": "Első óra 8-kor az emberiség elleni bűn", "joinedAt": "2024-10-01", "avatar": "😴" },
     { "id": 10, "username": "hazi_bajnok", "karma": 1042, "bio": "ChatGPT a legjobb barátom (shhh)", "joinedAt": "2024-10-05", "avatar": "🏆" }
   ],
-  "memes": [
-    {
-      "id": 1,
-      "title": "Amikor a tanár azt mondja 'ez egyszerű' és a fél osztály sírva néz a táblára",
-      "imageUrl": "https://picsum.photos/seed/jedlik1/600/400",
-      "upvotes": 420,
-      "downvotes": 3,
-      "category": "matek",
-      "authorId": 2,
-      "createdAt": "2025-01-10T08:30:00Z"
-    },
-    {
-      "id": 2,
-      "title": "POV: Elfelejtettük a tornafelszerelést és most pucér zokniban kell tornászni",
-      "imageUrl": "https://picsum.photos/seed/jedlik2/600/400",
-      "upvotes": 315,
-      "downvotes": 12,
-      "category": "egyéb",
-      "authorId": 6,
-      "createdAt": "2025-01-12T11:15:00Z"
-    },
-    {
-      "id": 3,
-      "title": "Informatika óra – a tanár megkérdezi ki nem csinálja meg a háziját és mindenki a monitort bámulja",
-      "imageUrl": "https://picsum.photos/seed/jedlik3/600/400",
-      "upvotes": 587,
-      "downvotes": 5,
-      "category": "informatika",
-      "authorId": 8,
-      "createdAt": "2025-01-14T09:00:00Z"
-    },
-    {
-      "id": 4,
-      "title": "5 perccel fizika dolgozat előtt: 'gyorsan olvasd el az egész fejezetet'",
-      "imageUrl": "https://picsum.photos/seed/jedlik4/600/400",
-      "upvotes": 402,
-      "downvotes": 8,
-      "category": "fizika",
-      "authorId": 3,
-      "createdAt": "2025-01-16T07:45:00Z"
-    },
-    {
-      "id": 5,
-      "title": "Irodalom dolgozat: 'elemezd a művet' – én aki soha nem olvastam el",
-      "imageUrl": "https://picsum.photos/seed/jedlik5/600/400",
-      "upvotes": 674,
-      "downvotes": 7,
-      "category": "irodalom",
-      "authorId": 4,
-      "createdAt": "2025-01-18T13:20:00Z"
-    },
-    {
-      "id": 6,
-      "title": "Hétfő reggel 8 óra, első óra matek – a napirend szerint ez egyenértékű a kínzással",
-      "imageUrl": "https://picsum.photos/seed/jedlik6/600/400",
-      "upvotes": 891,
-      "downvotes": 4,
-      "category": "matek",
-      "authorId": 9,
-      "createdAt": "2025-01-20T07:55:00Z"
-    },
-    {
-      "id": 7,
-      "title": "Történelem teszt: 'mi volt az 1867-es kiegyezés pontos dátuma?' Én: ez nem kell tudni",
-      "imageUrl": "https://picsum.photos/seed/jedlik7/600/400",
-      "upvotes": 256,
-      "downvotes": 21,
-      "category": "történelem",
-      "authorId": 5,
-      "createdAt": "2025-01-22T10:10:00Z"
-    },
-    {
-      "id": 8,
-      "title": "Amikor végre péntekre ér a hét és mindenki előre szaladna az ajtón",
-      "imageUrl": "https://picsum.photos/seed/jedlik8/600/400",
-      "upvotes": 1024,
-      "downvotes": 1,
-      "category": "egyéb",
-      "authorId": 6,
-      "createdAt": "2025-01-24T14:00:00Z"
-    },
-    {
-      "id": 9,
-      "title": "Az a pillanat amikor a tanár bejelenti hogy jövő héten nincs dolgozat – nemes csendesség",
-      "imageUrl": "https://picsum.photos/seed/jedlik9/600/400",
-      "upvotes": 743,
-      "downvotes": 2,
-      "category": "egyéb",
-      "authorId": 7,
-      "createdAt": "2025-01-26T12:30:00Z"
-    },
-    {
-      "id": 10,
-      "title": "Python for ciklus: 'range(10)' – én aki 0-tól 9-ig számol és nem érti miért 9 az utolsó",
-      "imageUrl": "https://picsum.photos/seed/jedlik10/600/400",
-      "upvotes": 388,
-      "downvotes": 15,
-      "category": "informatika",
-      "authorId": 8,
-      "createdAt": "2025-01-28T09:45:00Z"
-    }
-  ]
+"memes": [
+  {
+    "id": 1,
+    "title": "Kis kék fazi",
+    "imageUrl": "https://preview.redd.it/kis-k%C3%A9k-fazi-v0-2cpa06eed81g1.png?width=1080&crop=smart&auto=webp&s=5ab654ba0e05e327c76c812bd69c41add1bc9fd4",
+    "upvotes": 420,
+    "downvotes": 3,
+    "category": "matek",
+    "authorId": 2,
+    "createdAt": "2025-01-10T08:30:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 2,
+    "title": "Evil ass rape building",
+    "imageUrl": "https://preview.redd.it/%C3%A9n-sz%C3%B3ltam-v0-u2dj2bp3nomf1.png?width=1080&crop=smart&auto=webp&s=e1dd390998cd6ff7a452604cceb65e14d78ed767",
+    "upvotes": 315,
+    "downvotes": 12,
+    "category": "egyéb",
+    "authorId": 6,
+    "createdAt": "2025-01-12T11:15:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 3,
+    "title": "Somesz minden töri órán:",
+    "imageUrl": "https://preview.redd.it/somesz-minden-torin-v0-qr3e4zh2zkxe1.jpeg?width=1080&crop=smart&auto=webp&s=516ac76033fa8c9db0ccf9f56ae42ae7eb5d21d5",
+    "upvotes": 587,
+    "downvotes": 5,
+    "category": "informatika",
+    "authorId": 8,
+    "createdAt": "2025-01-14T09:00:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 4,
+    "title": "Tudtam hogy ismerős volt valahonnan'",
+    "imageUrl": "https://preview.redd.it/ismer%C5%91s-volt-az-%C3%B6lt%C3%B6z%C3%A9ke-v0-3ou32qz0a9se1.jpeg?auto=webp&s=8e51796efa5690e02bc29fad15cd93e8d8d5cb00",
+    "upvotes": 402,
+    "downvotes": 8,
+    "category": "fizika",
+    "authorId": 3,
+    "createdAt": "2025-01-16T07:45:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 5,
+    "title": "Módos shitposting portal",
+    "imageUrl": "https://preview.redd.it/m%C3%B3dos-shitposting-portal-v0-vfs26gloivme1.jpeg?width=1080&crop=smart&auto=webp&s=fb7e0f28536a0dcf406cbc40c2156d1e0d8209ca",
+    "upvotes": 674,
+    "downvotes": 7,
+    "category": "irodalom",
+    "authorId": 4,
+    "createdAt": "2025-01-18T13:20:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 6,
+    "title": "Somi be meghaling",
+    "imageUrl": "https://preview.redd.it/somi-be-meghaling-v0-8r60etp1gsud1.jpeg?width=1080&crop=smart&auto=webp&s=edde3259f1c54eb4d0c3418ad4a03f5b13376dad",
+    "upvotes": 891,
+    "downvotes": 4,
+    "category": "matek",
+    "authorId": 9,
+    "createdAt": "2025-01-20T07:55:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 7,
+    "title": "Kottra on some bullshit again",
+    "imageUrl": "https://preview.redd.it/%C3%A9retts%C3%A9gi-%C3%A9v%C3%A9ben-33-v0-m0vpsadbstmd1.png?width=1080&crop=smart&auto=webp&s=0cae6a66de0680779cc50c8e28b0227457e4934b",
+    "upvotes": 256,
+    "downvotes": 21,
+    "category": "történelem",
+    "authorId": 5,
+    "createdAt": "2025-01-22T10:10:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 8,
+    "title": "Amikor végre péntekre ér a hét és mindenki előre szaladna az ajtón",
+    "imageUrl": "https://picsum.photos/seed/jedlik8/600/400",
+    "upvotes": 1024,
+    "downvotes": 1,
+    "category": "egyéb",
+    "authorId": 6,
+    "createdAt": "2025-01-24T14:00:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 9,
+    "title": "Átlagos esős nap a jedlikben",
+    "imageUrl": "https://preview.redd.it/%C3%A1tlagos-es%C5%91s-nap-a-jedlikben-v0-c8jaodgzjp5d1.jpeg?width=1080&crop=smart&auto=webp&s=65af579347e364987994fbe0b840546e9bfde093",
+    "upvotes": 743,
+    "downvotes": 2,
+    "category": "egyéb",
+    "authorId": 7,
+    "createdAt": "2025-01-26T12:30:00Z",
+    "likedBy": [],
+    "dislikedBy": []
+  },
+  {
+    "id": 10,
+    "title": "Kocsis Zoltán avagy Détár Ferenc starterpakk",
+    "imageUrl": "https://preview.redd.it/kocsis-zolt%C3%A1n-avagy-d%C3%A9t%C3%A1r-ferenc-starterpakk-v0-53ef3jaz3klc1.png?auto=webp&s=5703e6a2fbb833e23615c80b1896b59482e2844e",
+    "upvotes": 388,
+    "downvotes": 15,
+    "category": "informatika",
+    "authorId": 8,
+    "createdAt": "2025-01-28T09:45:01Z",
+    "likedBy": [],
+    "dislikedBy": []
+  }
+]
 }
