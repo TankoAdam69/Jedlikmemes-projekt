@@ -1,39 +1,109 @@
 {
   "users": [
-    { "id": 1, "username": "jedlik_kiraly", "karma": 1337, "bio": "Az informatika az egyetlen igaz tudomány 💻", "joinedAt": "2024-09-01", "avatar": "🧑‍💻" },
-    { "id": 2, "username": "matek_zseni", "karma": 892, "bio": "Valójában én sem értem a limeszt", "joinedAt": "2024-09-03", "avatar": "🧮" },
-    { "id": 3, "username": "fizika_lord", "karma": 421, "bio": "F = m*a és kész, mi más kellene?", "joinedAt": "2024-09-05", "avatar": "⚗️" },
-    { "id": 4, "username": "irodalom_hater", "karma": 654, "bio": "Madách csak szenvedni akart velünk", "joinedAt": "2024-09-08", "avatar": "📚" },
-    { "id": 5, "username": "tori_nerd", "karma": 203, "bio": "1848 mindenkinek, de főleg nekem", "joinedAt": "2024-09-10", "avatar": "📜" },
-    { "id": 6, "username": "pentek_vibe", "karma": 777, "bio": "Hétfőn meghalok, pénteken feltámadok", "joinedAt": "2024-09-12", "avatar": "🎉" },
-    { "id": 7, "username": "dolgozo_survivor", "karma": 315, "bio": "Túléltem már 47 dolgozatot, ez is megy", "joinedAt": "2024-09-15", "avatar": "😅" },
-    { "id": 8, "username": "python_padawan", "karma": 580, "bio": "print('Hello World') – ez a csúcs", "joinedAt": "2024-09-20", "avatar": "🐍" },
-    { "id": 9, "username": "nap_alvos", "karma": 99, "bio": "Első óra 8-kor az emberiség elleni bűn", "joinedAt": "2024-10-01", "avatar": "😴" },
-    { "id": 10, "username": "hazi_bajnok", "karma": 1042, "bio": "ChatGPT a legjobb barátom (shhh)", "joinedAt": "2024-10-05", "avatar": "🏆" }
+    {
+      "id": "1",
+      "username": "jedlik_kiraly",
+      "karma": 1337,
+      "bio": "Az informatika az egyetlen igaz tudomány 💻",
+      "joinedAt": "2024-09-01",
+      "avatar": "🧑‍💻"
+    },
+    {
+      "id": "2",
+      "username": "matek_zseni",
+      "karma": 892,
+      "bio": "Valójában én sem értem a limeszt",
+      "joinedAt": "2024-09-03",
+      "avatar": "🧮"
+    },
+    {
+      "id": "3",
+      "username": "fizika_lord",
+      "karma": 421,
+      "bio": "F = m*a és kész, mi más kellene?",
+      "joinedAt": "2024-09-05",
+      "avatar": "⚗️"
+    },
+    {
+      "id": "4",
+      "username": "irodalom_hater",
+      "karma": 654,
+      "bio": "Madách csak szenvedni akart velünk",
+      "joinedAt": "2024-09-08",
+      "avatar": "📚"
+    },
+    {
+      "id": "5",
+      "username": "tori_nerd",
+      "karma": 203,
+      "bio": "1848 mindenkinek, de főleg nekem",
+      "joinedAt": "2024-09-10",
+      "avatar": "📜"
+    },
+    {
+      "id": "6",
+      "username": "pentek_vibe",
+      "karma": 777,
+      "bio": "Hétfőn meghalok, pénteken feltámadok",
+      "joinedAt": "2024-09-12",
+      "avatar": "🎉"
+    },
+    {
+      "id": "7",
+      "username": "dolgozo_survivor",
+      "karma": 315,
+      "bio": "Túléltem már 47 dolgozatot, ez is megy",
+      "joinedAt": "2024-09-15",
+      "avatar": "😅"
+    },
+    {
+      "id": "8",
+      "username": "python_padawan",
+      "karma": 580,
+      "bio": "print('Hello World') – ez a csúcs",
+      "joinedAt": "2024-09-20",
+      "avatar": "🐍"
+    },
+    {
+      "id": "9",
+      "username": "nap_alvos",
+      "karma": 99,
+      "bio": "Első óra 8-kor az emberiség elleni bűn",
+      "joinedAt": "2024-10-01",
+      "avatar": "😴"
+    },
+    {
+      "id": "10",
+      "username": "hazi_bajnok",
+      "karma": 1042,
+      "bio": "ChatGPT a legjobb barátom (shhh)",
+      "joinedAt": "2024-10-05",
+      "avatar": "🏆"
+    }
   ],
   "memes": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Amikor a tanár azt mondja 'ez egyszerű' és a fél osztály sírva néz a táblára",
       "imageUrl": "https://picsum.photos/seed/jedlik1/600/400",
-      "upvotes": 420,
-      "downvotes": 3,
+      "upvotes": 422,
+      "downvotes": 6,
       "category": "matek",
-      "authorId": 2,
+      "authorId": 1,
       "createdAt": "2025-01-10T08:30:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "POV: Elfelejtettük a tornafelszerelést és most pucér zokniban kell tornászni",
       "imageUrl": "https://picsum.photos/seed/jedlik2/600/400",
-      "upvotes": 315,
-      "downvotes": 12,
+      "upvotes": 321,
+      "downvotes": 18,
       "category": "egyéb",
       "authorId": 6,
       "createdAt": "2025-01-12T11:15:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Informatika óra – a tanár megkérdezi ki nem csinálja meg a háziját és mindenki a monitort bámulja",
       "imageUrl": "https://picsum.photos/seed/jedlik3/600/400",
       "upvotes": 587,
@@ -43,7 +113,7 @@
       "createdAt": "2025-01-14T09:00:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "5 perccel fizika dolgozat előtt: 'gyorsan olvasd el az egész fejezetet'",
       "imageUrl": "https://picsum.photos/seed/jedlik4/600/400",
       "upvotes": 402,
@@ -53,7 +123,7 @@
       "createdAt": "2025-01-16T07:45:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Irodalom dolgozat: 'elemezd a művet' – én aki soha nem olvastam el",
       "imageUrl": "https://picsum.photos/seed/jedlik5/600/400",
       "upvotes": 674,
@@ -63,7 +133,7 @@
       "createdAt": "2025-01-18T13:20:00Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Hétfő reggel 8 óra, első óra matek – a napirend szerint ez egyenértékű a kínzással",
       "imageUrl": "https://picsum.photos/seed/jedlik6/600/400",
       "upvotes": 891,
@@ -73,7 +143,7 @@
       "createdAt": "2025-01-20T07:55:00Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Történelem teszt: 'mi volt az 1867-es kiegyezés pontos dátuma?' Én: ez nem kell tudni",
       "imageUrl": "https://picsum.photos/seed/jedlik7/600/400",
       "upvotes": 256,
@@ -83,7 +153,7 @@
       "createdAt": "2025-01-22T10:10:00Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Amikor végre péntekre ér a hét és mindenki előre szaladna az ajtón",
       "imageUrl": "https://picsum.photos/seed/jedlik8/600/400",
       "upvotes": 1024,
@@ -93,7 +163,7 @@
       "createdAt": "2025-01-24T14:00:00Z"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Az a pillanat amikor a tanár bejelenti hogy jövő héten nincs dolgozat – nemes csendesség",
       "imageUrl": "https://picsum.photos/seed/jedlik9/600/400",
       "upvotes": 743,
@@ -103,7 +173,7 @@
       "createdAt": "2025-01-26T12:30:00Z"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Python for ciklus: 'range(10)' – én aki 0-tól 9-ig számol és nem érti miért 9 az utolsó",
       "imageUrl": "https://picsum.photos/seed/jedlik10/600/400",
       "upvotes": 388,
@@ -112,5 +182,6 @@
       "authorId": 8,
       "createdAt": "2025-01-28T09:45:00Z"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
